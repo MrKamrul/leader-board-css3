@@ -18,6 +18,36 @@ main{
     margin-top: 21px;
     border-radius: 5px;
 }
+/* header */
+.navigation{
+    height: 80px;
+    background-color: rgb(53, 117, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.logo-name{
+    color: white;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.brand a img{
+    height: 50px;
+    width: 50px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
 /* top player */
 .top-players{
     margin-bottom: 30px;
@@ -136,5 +166,8 @@ hr:hover{
     }
     .player, .blog, .course{
         flex-direction: column;
+    }
+    .courses{
+        grid-row-gap: 20px;
     }
 }
